@@ -10,13 +10,19 @@
   <body>
     <h1>Verificador de Nível de Herói</h1>
 
-    <label for="heroName">Nome do Herói:</label>
-    <input type="text" id="heroName" placeholder="Digite o nome do herói" />
-
-    <label for="heroXP">XP do Herói:</label>
-    <input type="number" id="heroXP" placeholder="Digite a quantidade de XP" />
-
-    <button onclick="verificarNivel()">Verificar Nível</button>
+    <div class="formulario">
+      <div class="nomeHeroi">
+        <label for="heroName">Nome do Herói:</label>
+        <input type="text" id="heroName" placeholder="Digite o nome do herói" />
+      </div>
+      
+      <div class="xpHeroi">
+        <label for="heroXP">XP do Herói:</label>
+        <input type="number" id="heroXP" placeholder="Digite a quantidade de XP" />
+      </div>
+    
+      <button onclick="verificarNivel()">Verificar Nível</button>
+    </div>
 
     <div id="saida"></div>
 

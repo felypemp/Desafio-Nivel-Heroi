@@ -24,6 +24,6 @@ function verificarNivel() {
     }
 
     // Exibir a mensagem
-    var outputDiv = document.getElementById('output');
-    outputDiv.textContent = "O Herói de nome " + nomeHeroi + " está no nível de " + nivel;
+    var saidaDiv = document.getElementById('saida');
+    saidaDiv.textContent = "O Herói de nome " + nomeHeroi + " está no nível de " + nivel;
   }
